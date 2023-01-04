@@ -1,0 +1,59 @@
+.tableHeader {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  table {
+    border:1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+  }
+    
+  th {
+    border:1px solid black;
+  }
+  tr {
+    border:1px solid black;
+  }
+  td {
+    text-align: center;
+    border:1px solid black;
+    padding: 1%;
+  }
+  .btn1{
+    margin: 2%;
+    padding: 0.8%;
+    background-color: rgb(106, 199, 241);
+    border: 0;
+    border-radius: 1%;
+  }
+  .btnParent{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  .editBtn{
+      background-color: mediumseagreen;
+      width: 40%;
+      padding:2%;
+      margin-left: 30%;
+      border-radius: 2%;
+      margin-bottom: 2%;  
+      border: 0; 
+  }
+  .deleteBtn{
+    background-color:rgb(252, 144, 125);
+    width: 40%;
+    padding:2%;
+    margin-left: 30%;
+    border-radius: 2%;
+    margin-bottom: 2%;  
+    border: 0; 
+}
+  .actions{
+      justify-content: center;
+  }
