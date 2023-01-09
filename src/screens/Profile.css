@@ -24,11 +24,13 @@
     padding: 1%;
   }
   .btn1{
-    margin: 2%;
+    margin: 1%;
     padding: 0.8%;
     background-color: rgb(106, 199, 241);
     border: 0;
     border-radius: 1%;
+    margin-right: 2%;
+    margin-bottom: 3%;
   }
   .btnParent{
     width: 100%;
@@ -57,3 +59,23 @@
   .actions{
       justify-content: center;
   }
+  .emptyData{
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logoutBtn1{
+    /* justify-content: end; */
+    margin: 1.85%;
+    background-color: rgb(252, 119, 119);
+    border: 0;
+    padding:0.8%;
+}
+.ErrorPopUp{
+  font-size: 1.5rem;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
